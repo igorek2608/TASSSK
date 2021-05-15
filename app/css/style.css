@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    font-size: 16px;
+   
+
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    margin: 0;
+}
+
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#auth{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    background-color:rgb(0, 38, 255);
+}
+
+.wrapper__email,
+.wrapper__password,
+.wrapper__repeat-password{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+#email,
+#password,
+#repeat__password{
+    display: block;
+    padding: 15px 110px;
+    border-radius: 10px;
+    padding-left: 5px;
+    font-size: 20px;
+    outline: none;
+}
+
+.label{
+    font-size: 25px;
+    color: azure
+}
+
+#btn__enter,
+#btn__reg,
+#btn__ready{
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 18px;
+    background-color: rgba(128, 0, 128, 0.61);
+    border: none;
+    cursor: pointer;
+    
+}
+#btn__enter{
+    margin-right: 40px;
+}
+
+
+.wrapper__repeat-password{
+    display: none;
+}
+
+.wrapper__repeat-password-active{
+    display: block;
+}
+
+.btn-ready{
+    visibility: hidden;
+}
+
+.btn-ready-active{
+    visibility: visible;
+}
+
+.error{
+    display: block;
+    color: red;
+    font-size: 16px;
+    
+}
+
+.success{
+    visibility: hidden;
+}
+
+
+
+
+
+
